@@ -14,6 +14,7 @@ namespace az_app_test.Pages
 
         public void OnGet()
         {
+            throw new Exception("This is application Insights");
         }
     }
 

@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>az_app_test</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/ea78284b-1e32-4edf-858c-85a7510eb616/resourceGroups/DefaultResourceGroup-EUS2/providers/microsoft.insights/components/az-webapp-test-CICD</ApplicationInsightsResourceId>
+    <UserSecretsId>23e13c8c-7854-489b-8f96-65a79146ed5e</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
